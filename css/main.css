@@ -69,3 +69,11 @@ h1 {
    max-width: 100% !important;
 }
 }
+
+#B ul li {
+    display:inline;
+    margin-right: 30px;
+}
+
+.align{text-align: justify; text-justify: inter-ideograph;}
+
