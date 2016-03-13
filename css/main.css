@@ -1,5 +1,5 @@
 body {
-    margin: 0px auto;
+    margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -81,4 +81,5 @@ h1 {
 color: #4B77C4
 }
 
+*{margin:0;padding:0;}
 
