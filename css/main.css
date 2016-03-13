@@ -72,8 +72,7 @@ h1 {
 
 #B ul li {
     display:inline;
-    margin:0;
-    padding:0;
+    margin-right: 30px;
 }
 
 .align{text-align: justify; text-justify: inter-ideograph;}
