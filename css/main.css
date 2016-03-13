@@ -77,8 +77,10 @@ h1 {
 }
 
 #B ul li {
-    margin-right: 30px;
+    margin:0;
+    padding: 0px;
     display:inline;
+    margin-right: 30px;
     list-style-type:none;
 }
 
