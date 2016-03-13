@@ -24,19 +24,16 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Arial', 'Sans-Serif';
-    margin-bottom: 30px;
 }
 p {
     font-family:'Arial', 'Sans-Serif','Times New Roman';
     font-size: 1.6em;
     line-height: 1.2em;
     color: #333;
-    margin-bottom: 30px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    margin-bottom: 30px;
 }
 
 ul.posts { 
