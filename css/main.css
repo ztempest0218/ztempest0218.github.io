@@ -24,30 +24,30 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Arial', 'Sans-Serif';
-    margin: 20px;
+    margin: 30px;
 }
 p {
     font-family:'Arial', 'Sans-Serif','Times New Roman';
     font-size: 1.6em;
     line-height: 1.2em;
     color: #333;
-    margin: 20px;
+    margin: 30px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    margin: 20px;
+    margin: 30px;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    margin: 20px;
+    margin: 30px;
 }
 
 ul.posts li {
     list-style: none;
-    margin: 20px;
+    margin: 30px;
 }
 
 @media print {
