@@ -24,12 +24,14 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Arial', 'Sans-Serif';
+    margin: 10px;
 }
 p {
     font-family:'Arial', 'Sans-Serif','Times New Roman';
     font-size: 1.6em;
     line-height: 1.2em;
     color: #333;
+    margin: 10px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -39,6 +41,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    margin: 10px;
 }
 
 ul.posts li {
@@ -64,7 +67,7 @@ h1 {
    @page {
        size: 210mm 297mm;  /* or size: 794px 1123px;   */
        size: 297mm 420mm;  /* or size: 1123px 1588px;  */
-      margin: 2cm;
+       margin: 2cm;
    }
    
    img {
