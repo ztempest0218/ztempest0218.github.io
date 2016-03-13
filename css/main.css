@@ -6,9 +6,13 @@ nav ul, footer ul {
     font-family:'Arial', 'Sans-Serif';
     list-style: none;
     font-weight: bold;
+    margin:0;
+    padding: 0px;
 }
 nav ul li, footer ul li {
     display: inline;
+    margin:0;
+    padding: 0px;
 }
 a {
     text-decoration: none;
@@ -69,7 +73,7 @@ h1 {
 }
 
 #B ul li {
-    margin: 0px;
+    margin-right: 30px;
     display:inline;
     list-style-type:none;
 }
