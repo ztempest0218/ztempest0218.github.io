@@ -64,4 +64,8 @@ h1 {
        size: 297mm 420mm;  /* or size: 1123px 1588px;  */
       margin: 2cm;
    }
+   
+   img {
+   max-width: 100% !important;
+}
 }
