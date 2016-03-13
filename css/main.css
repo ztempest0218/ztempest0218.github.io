@@ -1,17 +1,18 @@
+*{
+    margin:0;
+    padding: 0px; 
+}
+
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
     font-family:'Arial', 'Sans-Serif';
-    margin:0;
-    padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    margin:0;
-    padding:0;
     display: inline;
 }
 a {
@@ -74,8 +75,7 @@ h1 {
 
 #B ul li {
     display:inline;
-    margin: 0px;
-    padding: 0px;
+    margin-right: 30px;
 }
 
 .align{text-align: justify; text-justify: inter-ideograph;}
