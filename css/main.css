@@ -28,6 +28,8 @@ h1 {
     padding-bottom:15px;
 }
 p {
+    padding-top:15px; 
+    padding-bottom:15px;
     font-family:'Arial', 'Sans-Serif','Times New Roman';
     font-size: 1.6em;
     line-height: 1.2em;
