@@ -12,7 +12,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Arial', 'Sans-Serif','Times New Roman','微软雅黑','Microsoft YaHei','MS P明朝','MS PMincho','MS 明朝','MS Mincho';
+    font-family:'Arial', 'Sans-Serif','Times New Roman','MS Gothic',微软雅黑','Microsoft YaHei','MS P明朝','MS PMincho','MS 明朝','MS Mincho';
     list-style: none;
     font-size: 1.4em;
     font-weight: bold;
@@ -36,7 +36,7 @@ h1 {
 p {
     padding-top:15px; 
     padding-bottom:15px;
-    font-family:'Arial', 'Sans-Serif','Times New Roman','微软雅黑','Microsoft YaHei','MS P明朝','MS PMincho','MS 明朝','MS Mincho';
+    font-family:'Arial', 'Sans-Serif','Times New Roman','MS Gothic','微软雅黑','Microsoft YaHei','MS P明朝','MS PMincho','MS 明朝','MS Mincho';
     font-size: 1.6em;
     line-height: 1.2em;
     color: #333;
