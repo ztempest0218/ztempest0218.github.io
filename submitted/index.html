@@ -4,6 +4,21 @@
 		<title>Junchao Zhang</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+<script language=javascript>
+<!--
+function show(inputData){
+    var objID=document.getElementById( "layer_" + inputData );
+    var buttonID=document.getElementById( "category_" + inputData );
+    if(objID.className=='close') {
+        objID.style.display='block';
+        objID.className='open';
+    }else{
+        objID.style.display='none';
+        objID.className='close';
+    }
+}
+//-->
+</script>
 	</head>
 	<body>
 		<nav>
@@ -34,7 +49,11 @@
 <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">				　　　　　　　　　　　　　　　　<div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';"><a style="cursor:pointer;"><img alt="Graphic" title="Graphic" src="/+.gif" width="16" height="14"> Abstract</a></div>
 <div id="open2" style="display:none;clear:both;">
 <p class="align">Using micro-data from the Taiwan Population and Housing Census, this study estimates the causal effect of fertility on the labor supply of married women. To address the endogeneity of fertility, I exploit exogenous variations in the number of children caused by twin births, which can be considered a natural experiment. The instrumental variable estimates indicate that an additional child reduces female employment by 10.5 percentage points for those who have at least one delivery, and the effects gradually decline for females who have two or more deliveries, with the effects vanishing when females have three or more deliveries.</p></div>
- 
+ <a href="javascript:void(0)" id="category_折りたたみA" onclick="show('折りたたみA');">詳細を見る</a>
+<div id="layer_折りたたみA" style="display: none;position:relative;margin-left:15pt" class="close">展開行１<br>
+展開行２<br>
+展開行３<br>
+</div>
     		                <h2>Work in Progress</h2>
                        	        <HR>
     		                <p class="align">1. The Impacts of  9-year Compulsory Education: Quasi-Experimental Evidence from Taiwan</p>
