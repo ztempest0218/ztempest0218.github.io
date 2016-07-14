@@ -12,7 +12,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Arial', 'Sans-Serif','Times New Roman','MS Gothic',微软雅黑','Microsoft YaHei','MS P明朝','MS PMincho','MS 明朝','MS Mincho';
+    font-family:'Arial', 'Sans-Serif','MS Gothic','Times New Roman';
     list-style: none;
     font-size: 1.4em;
     font-weight: bold;
