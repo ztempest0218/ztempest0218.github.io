@@ -152,10 +152,11 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .intro .intro-body .intro-text {
+    text-align: justify;
     font-size: 18px;
 }
 
@@ -170,7 +171,6 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        text-align: justify;
         font-size: 25px;
     }
 }
