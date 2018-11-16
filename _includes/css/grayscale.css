@@ -156,7 +156,7 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    text-align: justify;
+    text-align: justify-all;
     font-size: 18px;
 }
 
@@ -171,7 +171,6 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        text-align: center;
         font-size: 25px;
     }
 }
