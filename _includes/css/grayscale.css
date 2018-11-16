@@ -31,6 +31,8 @@ h6 {
 }
 
 p {
+    display: table;
+    margin:auto;
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
