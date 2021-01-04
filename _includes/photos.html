@@ -5,32 +5,31 @@
                 <div class="col-lg-8 col-lg-offset-2">
                  <h2>Photography</h2>  
                  <ul id="lightSlider">
-                 <li>
-                 <h3>Photography</h3>  
-                 <p><img src="/img/IMG_6272.jpeg" width=100% oncontextmenu="return false;" ondragstart="return false;"></p>
-                 </li>
-                  
-                    <li>
-                 <h3>Photohy</h3>  
-                 <p><img src="/img/IMG_6272.jpeg" width=100% oncontextmenu="return false;" ondragstart="return false;"></p>
-                 </li>
-                  
-                    <li>
-                 <h3>Photogra</h3>  
-                 <p><img src="/img/IMG_6272.jpeg" width=100% oncontextmenu="return false;" ondragstart="return false;"></p>
-                 </li>
-                  
-                    <li>
-                 <h3>Photaphy</h3>  
-                 <p><img src="/img/IMG_6272.jpeg" width=100% oncontextmenu="return false;" ondragstart="return false;"></p>
-                 </li>
-                 </ul>
-                </div>
-             <script type="text/javascript">
-  $(document).ready(function() {
-    $("#lightSlider").lightSlider(); 
-  });
+      </li>
+      <li data-thumb="images/thumbs/1.jpg">     
+        <img src="images/enrollment.jpg"/>
+      </li>
+        <li data-thumb="images/thumbs/2.jpg">
+        <img src="images/immi.jpg"/>
+      </li>
+      ・・・
+</ul>
+             
+<script>
+jQuery(function($){  
+    $("#lightSlider").lightSlider({
+        item:1,
+        auto: true,
+        speed: 500,
+        pause: 4000,
+        gallery:true,
+        thumbItem:5,
+        loop: true,
+        adaptiveHeight:true 
+    }); 
+}); 
 </script>
             </div>
+        </div>
         </div>
     </section>
