@@ -17,10 +17,8 @@ footer: Junchao's Website
 social:
 - title: email
   url: ztempest0218@gmail.com
-  fa-icon: 'fa-envelope-square'
 - title: twitter
   url: https://twitter.com
-  fa-icon: 'fa-twitter-square'
 # - title: facebook
 #  url: https://facebook.com
 # - title: stack-overflow
@@ -29,7 +27,7 @@ social:
   url: https://www.researchgate.net/profile/Junchao_Zhang3
 - title: github
   url: https://github.com/ztempest0218
-  fa-icon: 'fa-github-square'
+
   
 # Build settings
 markdown: kramdown
