@@ -20,7 +20,11 @@
     </div>
 </div>
 
-new IdealImageSlider.Slider('#slider');
+<script>
+var slider = new IdealImageSlider.Slider('#slider');
+slider.addBulletNav();
+slider.start();
+</script>
 
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
