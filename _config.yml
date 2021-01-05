@@ -21,8 +21,8 @@ social:
 #  url: https://facebook.com
 # - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
-# - title: researchgate
-#  url: https://www.researchgate.net/profile/Junchao_Zhang3
+- title: google
+  url: https://scholar.google.com/citations?user=5-xkIOwAAAAJ&hl=en
 - title: github
   url: https://github.com/ztempest0218
 
