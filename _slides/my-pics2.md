@@ -1,8 +1,6 @@
 ---
 layout: iframe
 title: My pictures gallery
-autoWidth:true
-gallery: true
 item: 1
 auto: true
 loop: true
