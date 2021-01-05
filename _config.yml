@@ -13,21 +13,6 @@ color:
 # Footer settings
 footer: Junchao's Website
 
-
-# Slides
-defaults:
-  -
-    scope:
-      path: "_slides" 
-    values:
-      layout: "iframe"
-
-collections:
-  slides:
-    output: true
-
-
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
 # - title: twitter
