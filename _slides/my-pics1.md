@@ -4,6 +4,7 @@ title: My slideshow
 item: 1
 auto: true
 loop: true
+autoWidth:true
 permalink: /slides/my-pics1.html
 ---
 
