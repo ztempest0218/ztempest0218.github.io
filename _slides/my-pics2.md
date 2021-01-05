@@ -1,6 +1,7 @@
 ---
 layout: iframe
 title: My pictures gallery
+gallery: true
 item: 1
 auto: true
 loop: true
