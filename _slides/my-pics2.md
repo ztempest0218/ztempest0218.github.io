@@ -19,6 +19,7 @@ style:
       left: 0
     to:
       left: -100%
+permalink: /slides/my-pics2.html
 ---
 
 * ![A nice pic of mine](my-pics1/pic1.jpg)
