@@ -22,8 +22,8 @@ style:
 permalink: /slides/my-pics2.html
 ---
 
-* ![A nice pic of mine](my-pics1/pic1.jpg)
-* ![Another nice pic of mine](my-pics1/pic2.jpg)
+* ![A nice pic of mine](my-pics1/pic1.jpeg)
+* ![Another nice pic of mine](my-pics1/pic2.jpeg)
 
 
 
