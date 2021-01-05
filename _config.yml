@@ -21,8 +21,8 @@ social:
 - title: twitter
   url: https://twitter.com
   fa-icon: 'fa-twitter-square'
-- title: facebook
-  url: https://facebook.com
+# - title: facebook
+#  url: https://facebook.com
 # - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 - title: researchgate
