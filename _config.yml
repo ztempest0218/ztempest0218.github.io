@@ -15,10 +15,10 @@ footer: Junchao's Website
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-# - title: twitter
-#   url: https://twitter.com/SBootstrap
-# - title: facebook
-#   url:
+- title: twitter
+  url: https://twitter.com
+- title: facebook
+  url: https://facebook.com
 # - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #- title: bitbucket
