@@ -1,7 +1,6 @@
 ---
 layout: iframe
 title: My pictures gallery
-slideWidth: 320
 item: 1
 auto: true
 loop: true
@@ -15,7 +14,7 @@ style:
     init:
       position: absolute
       bottom: 0
-      width: 200%
+      width: 100%
     from:
       left: 0
     to:
