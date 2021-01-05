@@ -1,6 +1,7 @@
 ---
 layout: iframe
 title: My pictures gallery
+autoWidth:true
 gallery: true
 item: 1
 auto: true
@@ -15,7 +16,6 @@ style:
     init:
       position: absolute
       bottom: 0
-      width: 100%
     from:
       left: 0
     to:
