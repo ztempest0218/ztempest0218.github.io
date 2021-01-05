@@ -15,18 +15,17 @@ footer: Junchao's Website
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-- title: email
-  url: ztempest0218@gmail.com
-- title: twitter
-  url: https://twitter.com
+
+# - title: twitter
+#  url: https://twitter.com
 # - title: facebook
 #  url: https://facebook.com
 # - title: stack-overflow
 #   url: http://stackoverflow.com/questions/tagged/jekyll
-- title: researchgate
-  url: https://www.researchgate.net/profile/Junchao_Zhang3
-- title: github
-  url: https://github.com/ztempest0218
+# - title: researchgate
+#  url: https://www.researchgate.net/profile/Junchao_Zhang3
+# - title: github
+#  url: https://github.com/ztempest0218
 
   
 # Build settings
