@@ -23,8 +23,8 @@ social:
 #   url: http://stackoverflow.com/questions/tagged/jekyll
 #- title: bitbucket
 #url: http://bitbucket.org/jekyll
-# - title: github
-#   url: https://github.com/IronSummitMedia/startbootstrap
+- title: github
+  url: https://github.com/ztempest0218
 
 # Build settings
 markdown: kramdown
