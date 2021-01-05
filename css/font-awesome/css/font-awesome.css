@@ -1670,3 +1670,7 @@
 .fa-meanpath:before {
   content: "\f20c";
 }
+
+.fa-infinity:before {
+  content: "\f534";
+}
