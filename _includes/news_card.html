@@ -1,4 +1,6 @@
-{% assign n = include.item %}
+
+<section id="aaa" class="content-section text-justify">
+  {% assign n = include.item %}
 <article class="news-card" style="margin:1rem 0; padding:1rem; border:1px solid #eee; border-radius:12px;">
   <div style="display:flex; gap:1rem; align-items:flex-start;">
     {% if n.image %}
@@ -31,3 +33,4 @@
     </div>
   </div>
 </article>
+  </section>
