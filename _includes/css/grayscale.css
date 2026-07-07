@@ -252,6 +252,18 @@ a:focus {
     padding-top: 100px;
 }
 
+/*
+ * Scrollspy fix: the last section (#zemi) is short, so clicking "Contact"
+ * scrolls the page to its very bottom. Bootstrap's scrollspy then force-
+ * activates the LAST nav item (ゼミ) whenever the page hits max scroll,
+ * stealing the highlight from Contact. Giving the final section a full
+ * viewport of height ensures Contact can reach the top on its own, so the
+ * correct nav item stays highlighted.
+ */
+#zemi {
+    min-height: 100vh;
+}
+
 .lectures-section {
     width: 100%;
     padding: 50px 0;
