@@ -290,6 +290,11 @@ a:focus {
     padding-left: 20px;
 }
 
+.news-block .news-item + .news-item {
+    border-top: 1px solid rgba(255,255,255,.25);
+    padding-top: 30px;
+}
+
 .news-block .news-item p {
     margin-bottom: 12px;
 }
