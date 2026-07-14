@@ -159,6 +159,13 @@ a:focus {
     font-size: 18px;
 }
 
+.intro .intro-body .intro-quote {
+    display: inline-block;
+    margin-top: 18px;
+    font-style: italic;
+    color: rgba(255,255,255,.85);
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
