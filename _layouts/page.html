@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body class="site-page">
+    {% include nav.html %}
+    <section class="container content-section page-content">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

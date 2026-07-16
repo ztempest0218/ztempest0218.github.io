@@ -5,7 +5,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                <a class="navbar-brand page-scroll" href="{{ "/" | prepend: site.baseurl }}#page-top">
                     <i class="fa fa-tree"></i>  <span class="light">Junchao</span> Zhang
                 </a>
             </div>
@@ -15,13 +15,13 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="{{ "/" | prepend: site.baseurl }}#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#research">Research</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#research">Research</a>
                     </li>
                  
                   <!--
@@ -35,25 +35,29 @@
                  -->
                  
                   <li>
-                        <a class="page-scroll" href="#lectures">Lectures</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#lectures">Lectures</a>
                     </li>
 
                
 
                     <li>
-                        <a class="page-scroll" href="#photography">Photography</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#photography">Photography</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="#misc">Misc</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#misc">Misc</a>
+                    </li>
+
+                    <li>
+                        <a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>
                     </li>
                  
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a>
                     </li>
                  
                     <li>
-                        <a class="page-scroll" href="#zemi">ゼミ</a>
+                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#zemi">ゼミ</a>
                     </li>
 
                  
