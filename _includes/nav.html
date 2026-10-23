@@ -2,7 +2,7 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="{{ "/" | prepend: site.baseurl }}#page-top">
@@ -11,17 +11,17 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <div id="main-navigation" class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="{{ "/" | prepend: site.baseurl }}#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#about">About</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#research">Research</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#research">Research</a>
                     </li>
                  
                   <!--
@@ -35,25 +35,25 @@
                  -->
                  
                   <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#lectures">Lectures</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#lectures">Lectures</a>
                     </li>
 
                
 
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#photography">Photography</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#photography">Photography</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#misc">Misc</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#misc">Misc</a>
                     </li>
 
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a>
                     </li>
                  
                     <li>
-                        <a class="page-scroll" href="{{ "/" | prepend: site.baseurl }}#zemi">ゼミ</a>
+                        <a class="nav-link page-scroll" href="{{ "/" | prepend: site.baseurl }}#zemi">ゼミ</a>
                     </li>
 
                  

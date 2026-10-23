@@ -1,1 +1,18 @@
-{}
+{
+  "name": "ztempest0218.github.io",
+  "private": true,
+  "scripts": {
+    "vendor": "node scripts/vendor-libraries.cjs",
+    "check:vendor": "node scripts/vendor-libraries.cjs --check",
+    "security:policy": "node scripts/security-policy.mjs",
+    "check:security": "node scripts/security-policy.mjs --check && node scripts/check-slider-security.cjs"
+  },
+  "dependencies": {
+    "@popperjs/core": "2.11.8",
+    "bootstrap": "5.3.8",
+    "jquery": "3.7.1"
+  },
+  "devDependencies": {
+    "parse5": "8.0.1"
+  }
+}

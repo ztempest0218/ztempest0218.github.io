@@ -1,0 +1,26 @@
+/* Keep the existing theme's layout while Bootstrap 5 handles interactions. */
+.collapse.show {
+    display: block;
+    visibility: visible;
+}
+
+.fade.show {
+    opacity: 1;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.nav-tabs > li > a.active {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-pills > li > a.active {
+    color: #fff;
+    background-color: #337ab7;
+}

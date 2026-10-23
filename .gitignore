@@ -3,3 +3,6 @@
 .Rapp.history
 .gitattributes
 *.Rmd
+node_modules/
+_site/
+.jekyll-cache/
